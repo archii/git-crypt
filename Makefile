@@ -7,7 +7,8 @@
 CXXFLAGS ?= -Wall -pedantic -Wno-long-long -O2
 CXXFLAGS += -std=c++11
 CXXFLAGS+= -DOPENSSL_API_COMPAT=0x30000000L
-PREFIX ?= /usr/local
+# PREFIX ?= /usr/local
+PREFIX ?= ~/./local
 BINDIR ?= $(PREFIX)/bin
 MANDIR ?= $(PREFIX)/share/man
 
